@@ -7,7 +7,7 @@
  */
 /// <amd-module name="@angular/bazel" />
 import type { CompilerHost as NgCompilerHost, Program, CompilerOptions } from '@angular/compiler-cli';
-import { BazelOptions, CompilerHost } from '@bazel/concatjs/internal/tsc_wrapped/index';
+import { BazelOptions, CompilerHost } from '@bazel/concatjs/internal/tsc_wrapped';
 import ts from 'typescript';
 declare type CompilerCliModule = typeof import('@angular/compiler-cli') & typeof import('@angular/compiler-cli/private/bazel');
 export declare function main(args: any): Promise<1 | 0>;
